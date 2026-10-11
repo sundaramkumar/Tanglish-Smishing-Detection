@@ -3,7 +3,9 @@ Tanglish Phishing / Scam Message Dataset
 
 Files
 -----
-- tanglish_phishing_scam_dataset.csv: 30 labeled Tanglish examples.
+- tanglish_phishing_scam_dataset.csv: 754 labeled Tanglish examples (696 after removing
+  54 exact duplicates and 4 translated benign messages; see ../README.md and
+  audit_decisions.csv).
 - This README explains scope and provenance.
 
 Schema
@@ -12,7 +14,8 @@ id, message, label, scam_category, red_flags, provenance
 
 Label
 -----
-All records are labeled SCAM. This is a positive-only starter set, not a balanced
+All records are labeled SCAM (rows TX666-TX754 use lower-case "scam"; the scripts
+normalise the label to upper case). This is a positive-only starter set, not a balanced
 classification dataset. Add benign/legitimate messages before training a binary
 classifier, and keep a separate test set.
 
