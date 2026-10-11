@@ -41,7 +41,9 @@ results/           created by the scripts
 
 `tanglish_phishing_scam_dataset.csv` has six columns: `id, message, label, scam_category, red_flags, provenance`. All 754 rows are labelled SCAM. Links, phone numbers and app files in the seed messages are replaced by placeholders such as `[suspicious link]`.
 
-None of the messages is an intercepted SMS received by an identified person. The rows come from four sources, identified by id range (`group_of` in `src/common.py`):
+The messages are based on scam patterns documented in Department of Telecommunications (DoT) alerts, police advisories and news reports of recent frauds in Tamil Nadu. None of them is an intercepted SMS received by an identified person: they were written, adapted, translated or generated to follow those patterns. The corpus therefore tests whether a classifier recognises Tanglish versions of known scam patterns. It does not measure how often those patterns occur in real Tamil Nadu inboxes, and the wording of real messages may differ.
+
+The rows come from four sources, identified by id range (`group_of` in `src/common.py`):
 
 | Group | Ids | Source | Rows |
 |---|---|---|---|
