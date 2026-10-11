@@ -74,4 +74,5 @@ Do not replace placeholders with live malicious links, and do not use the corpus
 
 ## Licence
 
-[Choose a licence before publishing, for example CC BY 4.0 for the data and MIT for the code.]
+Data: CC BY 4.0
+Code: MIT
