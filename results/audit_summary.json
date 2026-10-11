@@ -1,0 +1,65 @@
+{
+ "rows": 754,
+ "labels": {
+  "SCAM": 754
+ },
+ "groups": {
+  "C_uci": 541,
+  "B_callscript": 89,
+  "D_template": 89,
+  "A_seed": 35
+ },
+ "group_C_match_types": {
+  "key": 426,
+  "sim": 90,
+  "none": 25
+ },
+ "exact_duplicates": 54,
+ "benign_candidates_listed": 11,
+ "strong_benign_candidates": [
+  "TX100",
+  "TX118",
+  "TX119",
+  "TX136",
+  "TX158"
+ ],
+ "removed_by_decision": [
+  "TX100",
+  "TX118",
+  "TX119",
+  "TX136"
+ ],
+ "rows_after_audit": 696,
+ "english_tanglish_pairs": 423,
+ "uci_spam_unseen_pct": 2.2,
+ "table1": [
+  {
+   "group": "A. Seed",
+   "rows": 35,
+   "after_audit": 35,
+   "mean_words": 16.2,
+   "unseen_in_uci_pct": 49.7
+  },
+  {
+   "group": "B. Call scripts",
+   "rows": 89,
+   "after_audit": 89,
+   "mean_words": 17.7,
+   "unseen_in_uci_pct": 54.5
+  },
+  {
+   "group": "C. UCI translations",
+   "rows": 541,
+   "after_audit": 483,
+   "mean_words": 20.7,
+   "unseen_in_uci_pct": 45.3
+  },
+  {
+   "group": "D. Templates",
+   "rows": 89,
+   "after_audit": 89,
+   "mean_words": 13.9,
+   "unseen_in_uci_pct": 44.0
+  }
+ ]
+}

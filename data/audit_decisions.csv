@@ -1,0 +1,6 @@
+id,decision,reason
+TX100,remove,"Translation of a benign UCI message (request for an Axis Bank account number and branch address, sent by an acquaintance); used as a benign probe"
+TX118,remove,"Translation of benign UCI message 'Booked ticket for pongal?'; used as a benign probe"
+TX119,remove,"Translation of a benign UCI invitation to meet near Hillsborough; used as a benign probe"
+TX136,remove,"Translation of benign UCI advice about a dorm account; used as a benign probe"
+TX158,keep,"Closest UCI message is benign ('what is your account number?') but the same request is a common scam opener and matches group B call scripts"

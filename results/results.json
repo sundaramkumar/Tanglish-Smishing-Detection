@@ -1,0 +1,433 @@
+{
+ "uci": {
+  "rows": 5574,
+  "after_dedup": 5171,
+  "spam": 653,
+  "ham": 4518
+ },
+ "corpus_after_audit": 696,
+ "benign_probes": [
+  "TX100",
+  "TX118",
+  "TX119",
+  "TX136"
+ ],
+ "pairs": 423,
+ "exp1": {
+  "MNB (word)": {
+   "en_f1": 0.9358390726232191,
+   "en_fpr": 0.0008849557522123894,
+   "en_rec": 0.9046865236420446,
+   "ta_rec": 0.8766122232808679,
+   "n_pairs": 84.6
+  },
+  "LR (word)": {
+   "en_f1": 0.9383914147435191,
+   "en_fpr": 0.007967786826605514,
+   "en_rec": 0.9500143588628582,
+   "ta_rec": 0.945249913692549,
+   "n_pairs": 84.6
+  },
+  "SVM (word)": {
+   "en_f1": 0.9379976658497681,
+   "en_fpr": 0.007304070012446222,
+   "en_rec": 0.9404051422426152,
+   "ta_rec": 0.9450563050333128,
+   "n_pairs": 84.6
+  },
+  "RF (word)": {
+   "en_f1": 0.891160735631399,
+   "en_fpr": 0.0,
+   "en_rec": 0.8364579577412302,
+   "ta_rec": 0.675702432126679,
+   "n_pairs": 84.6
+  },
+  "SVM (char 2-5)": {
+   "en_f1": 0.9645366455402689,
+   "en_fpr": 0.0011064396946265642,
+   "en_rec": 0.9618236664085998,
+   "ta_rec": 0.8867542242186097,
+   "n_pairs": 84.6
+  }
+ },
+ "exp2": {
+  "MNB (word)": {
+   "A_seed": {
+    "caught": 7,
+    "n": 35,
+    "recall": 0.2,
+    "ci95": [
+     10.0,
+     35.9
+    ]
+   },
+   "B_callscript": {
+    "caught": 9,
+    "n": 89,
+    "recall": 0.10112359550561797,
+    "ci95": [
+     5.4,
+     18.1
+    ]
+   },
+   "D_template": {
+    "caught": 36,
+    "n": 89,
+    "recall": 0.4044943820224719,
+    "ci95": [
+     30.9,
+     50.8
+    ]
+   },
+   "all": {
+    "caught": 52,
+    "n": 213,
+    "recall": 0.24413145539906103,
+    "ci95": [
+     19.1,
+     30.6
+    ]
+   },
+   "benign_probes_flagged": 0
+  },
+  "LR (word)": {
+   "A_seed": {
+    "caught": 8,
+    "n": 35,
+    "recall": 0.22857142857142856,
+    "ci95": [
+     12.1,
+     39.0
+    ]
+   },
+   "B_callscript": {
+    "caught": 7,
+    "n": 89,
+    "recall": 0.07865168539325842,
+    "ci95": [
+     3.9,
+     15.4
+    ]
+   },
+   "D_template": {
+    "caught": 35,
+    "n": 89,
+    "recall": 0.39325842696629215,
+    "ci95": [
+     29.8,
+     49.7
+    ]
+   },
+   "all": {
+    "caught": 50,
+    "n": 213,
+    "recall": 0.2347417840375587,
+    "ci95": [
+     18.3,
+     29.6
+    ]
+   },
+   "benign_probes_flagged": 0
+  },
+  "SVM (word)": {
+   "A_seed": {
+    "caught": 6,
+    "n": 35,
+    "recall": 0.17142857142857143,
+    "ci95": [
+     8.1,
+     32.7
+    ]
+   },
+   "B_callscript": {
+    "caught": 7,
+    "n": 89,
+    "recall": 0.07865168539325842,
+    "ci95": [
+     3.9,
+     15.4
+    ]
+   },
+   "D_template": {
+    "caught": 36,
+    "n": 89,
+    "recall": 0.4044943820224719,
+    "ci95": [
+     30.9,
+     50.8
+    ]
+   },
+   "all": {
+    "caught": 49,
+    "n": 213,
+    "recall": 0.2300469483568075,
+    "ci95": [
+     17.9,
+     29.1
+    ]
+   },
+   "benign_probes_flagged": 0
+  },
+  "RF (word)": {
+   "A_seed": {
+    "caught": 0,
+    "n": 35,
+    "recall": 0.0,
+    "ci95": [
+     0.0,
+     9.9
+    ]
+   },
+   "B_callscript": {
+    "caught": 1,
+    "n": 89,
+    "recall": 0.011235955056179775,
+    "ci95": [
+     0.2,
+     6.1
+    ]
+   },
+   "D_template": {
+    "caught": 13,
+    "n": 89,
+    "recall": 0.14606741573033707,
+    "ci95": [
+     8.7,
+     23.4
+    ]
+   },
+   "all": {
+    "caught": 14,
+    "n": 213,
+    "recall": 0.06572769953051644,
+    "ci95": [
+     4.0,
+     10.7
+    ]
+   },
+   "benign_probes_flagged": 0
+  },
+  "SVM (char 2-5)": {
+   "A_seed": {
+    "caught": 0,
+    "n": 35,
+    "recall": 0.0,
+    "ci95": [
+     0.0,
+     9.9
+    ]
+   },
+   "B_callscript": {
+    "caught": 5,
+    "n": 89,
+    "recall": 0.056179775280898875,
+    "ci95": [
+     2.4,
+     12.5
+    ]
+   },
+   "D_template": {
+    "caught": 37,
+    "n": 89,
+    "recall": 0.4157303370786517,
+    "ci95": [
+     31.9,
+     52.0
+    ]
+   },
+   "all": {
+    "caught": 42,
+    "n": 213,
+    "recall": 0.19718309859154928,
+    "ci95": [
+     14.9,
+     25.6
+    ]
+   },
+   "benign_probes_flagged": 0
+  }
+ },
+ "exp2_by_type": [
+  {
+   "type": "KYC / bank account",
+   "n": 58,
+   "svm_word": 0.017241379310344827,
+   "svm_char": 0.0
+  },
+  {
+   "type": "Other",
+   "n": 25,
+   "svm_word": 0.2,
+   "svm_char": 0.0
+  },
+  {
+   "type": "Prize / lottery",
+   "n": 14,
+   "svm_word": 0.35714285714285715,
+   "svm_char": 0.35714285714285715
+  },
+  {
+   "type": "Government / police",
+   "n": 9,
+   "svm_word": 0.1111111111111111,
+   "svm_char": 0.0
+  },
+  {
+   "type": "UPI / payment",
+   "n": 6,
+   "svm_word": 0.0,
+   "svm_char": 0.0
+  },
+  {
+   "type": "Electricity",
+   "n": 5,
+   "svm_word": 0.2,
+   "svm_char": 0.0
+  },
+  {
+   "type": "Courier / parcel",
+   "n": 4,
+   "svm_word": 0.0,
+   "svm_char": 0.0
+  },
+  {
+   "type": "Job / task",
+   "n": 3,
+   "svm_word": 0.0,
+   "svm_char": 0.0
+  }
+ ],
+ "uci_svm_weights": {
+  "kyc": null,
+  "aadhaar": null,
+  "upi": null,
+  "otp": null,
+  "parcel": null,
+  "fee": null,
+  "account": 0.276,
+  "bank": 0.079,
+  "card": 0.018,
+  "prize": 1.182,
+  "won": 1.101,
+  "job": -0.334,
+  "electricity": -0.11
+ },
+ "top_features_uci_only": [
+  "txt",
+  "call",
+  "text",
+  "uk",
+  "free",
+  "reply",
+  "www",
+  "150p",
+  "mobile",
+  "claim",
+  "com",
+  "50",
+  "stop",
+  "service",
+  "146tf150p",
+  "chat",
+  "ringtone",
+  "to",
+  "18",
+  "tones",
+  "from",
+  "win",
+  "you have",
+  "prize",
+  "http"
+ ],
+ "exp3": {
+  "A_seed": {
+   "MNB (word)": {
+    "recall": 1.0,
+    "benign_probes_flagged": 2
+   },
+   "SVM (word)": {
+    "recall": 0.9714285714285714,
+    "benign_probes_flagged": 2
+   },
+   "SVM (char 2-5)": {
+    "recall": 1.0,
+    "benign_probes_flagged": 2
+   }
+  },
+  "B_callscript": {
+   "MNB (word)": {
+    "recall": 0.9887640449438202,
+    "benign_probes_flagged": 2
+   },
+   "SVM (word)": {
+    "recall": 0.898876404494382,
+    "benign_probes_flagged": 1
+   },
+   "SVM (char 2-5)": {
+    "recall": 0.9325842696629213,
+    "benign_probes_flagged": 1
+   }
+  },
+  "D_template": {
+   "MNB (word)": {
+    "recall": 0.9887640449438202,
+    "benign_probes_flagged": 2
+   },
+   "SVM (word)": {
+    "recall": 0.9550561797752809,
+    "benign_probes_flagged": 2
+   },
+   "SVM (char 2-5)": {
+    "recall": 1.0,
+    "benign_probes_flagged": 2
+   }
+  }
+ },
+ "top_features_adapted": [
+  "txt",
+  "call",
+  "pannunga",
+  "text",
+  "unga",
+  "ku",
+  "free",
+  "uk",
+  "la",
+  "reply",
+  "www",
+  "150p",
+  "mobile",
+  "stop",
+  "claim",
+  "service",
+  "com",
+  "50",
+  "chat",
+  "ungal",
+  "ringtone",
+  "146tf150p",
+  "18",
+  "prize",
+  "panna"
+ ],
+ "probe_decision_scores": {
+  "ids": [
+   "TX100",
+   "TX118",
+   "TX119",
+   "TX136"
+  ],
+  "uci_only": [
+   -0.88,
+   -0.73,
+   -0.94,
+   -0.81
+  ],
+  "with_tanglish_scams": [
+   0.16,
+   -0.14,
+   -0.36,
+   0.66
+  ]
+ }
+}

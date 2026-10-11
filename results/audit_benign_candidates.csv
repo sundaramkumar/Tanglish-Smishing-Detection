@@ -1,0 +1,12 @@
+id,message,best_ham_sim,best_spam_sim,closest_ham,strong_candidate
+TX093,"Hi babe, naan ippo veetla irukken, edhavadhu pannalama? XXX",0.155,0.1,Babe ? I lost you ... :-(,False
+TX100,"Sir, enakku AXIS BANK account number-um bank address-um venum.",0.772,0.11,"Sir, I need AXIS BANK account no and bank address.",True
+TX118,Pongal-ku ticket book pannitiya?,0.565,0.119,Booked ticket for pongal?,True
+TX119,Nee ippo free-a? Naan hillsborough pakkathula dhaan irukken &amp; &lt;#&gt; th,0.32,0.086,You available now? I'm like right around hillsborough &amp;  &lt;#&gt; th,True
+TX136,"Stress edukkaadheenga. Andha nabar-ku dorm account irundha, unga account details anuppunga, panam ungalukku anuppiduvaanga.",0.386,0.134,"Save yourself the stress. If the person has a dorm account, just send your account details and the money will be sent to you.",True
+TX158,Unga bank account number enna?,0.442,0.154,what is your account number?,True
+TX331,"Neenga romba warm-a, friendly-a irukkuradhaala ungala sutthi irukkuravanga ellam nalla respond pannuvaanga. Neenga oru pudhu sunshine maadhiri.",0.133,0.109,Super msg da:)nalla timing.,False
+TX349,"Neenga drive pannumbodhu, ungala vida medhuvaa poravanga ellam muttaal, ungala vida vegamaa poravanga ellam paithiyam-nu eppovaavadhu gavanichirukeengala?",0.124,0.0,Then u drive lor.,False
+TX414,"Unga girl-a impress pannunga. Nooru kanakkula adult films, XXX pics ippove unga phone-la vaangunga.",0.21,0.209,K k :-):-) then watch some films.,False
+TX506,"adhukku etha maadhiri. Thirumba solren, unga mobile phone-la OK-nu text panni anuppunga",0.212,0.151,My phone,False
+TX538,"Naan panam jeyichiten, winning number 946, adutha enna pannanum?",0.223,0.067,S.this will increase the chance of winning.,False
